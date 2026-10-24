@@ -19,3 +19,25 @@ Two exploratory SS library-view runs reported negative setup slack. The 16-view 
 
 ## Tools
 Verilog, Yosys, OpenROAD, OpenSTA and Sky130HD.
+
+## FIR Filter Block Diagram
+
+![4-Tap Pipelined FIR Filter Block Diagram](FINAL_EVIDENCE/fir_block_diagram.png)
+
+Editable diagram source: [`fir_block_diagram.dot`](fir_block_diagram.dot)
+
+## Static Timing Analysis (STA)
+
+### Setup Slack Comparison
+![Setup Slack](STA_16_CORNERS/Setup_Slack_Comparison.png)
+
+### Hold Slack Comparison
+![Hold Slack](STA_16_CORNERS/Hold_Slack_Comparison.png)
+
+### WNS Comparison
+![WNS](STA_16_CORNERS/WNS_Comparison.png)
+
+### TNS Comparison
+![TNS](STA_16_CORNERS/TNS_Comparison.png)
+
+Detailed results: [STA Summary CSV](STA_16_CORNERS/STA_16_Corners_Summary.csv) · [STA Excel Report](STA_16_CORNERS/STA_16_Corners_Report.xlsx)
