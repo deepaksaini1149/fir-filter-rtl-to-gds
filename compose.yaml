@@ -1,0 +1,10 @@
+services:
+  fir:
+    build:
+      context: .
+    image: fir-filter-tools
+    working_dir: /project
+    volumes:
+      - .:/project
+    stdin_open: true
+    tty: true

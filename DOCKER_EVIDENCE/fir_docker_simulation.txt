@@ -1,0 +1,11 @@
+VCD info: dumpfile sim/fir_filter.vcd opened for output.
+PASS sample 0: output=10
+PASS sample 1: output=40
+PASS sample 2: output=100
+PASS sample 3: output=180
+PASS sample 4: output=260
+PASS sample 5: output=340
+PASS sample 6: output=420
+PASS sample 7: output=500
+PASS: All 8 FIR outputs verified.
+tb/tb_fir_filter.v:65: $finish called at 190000 (1ps)
