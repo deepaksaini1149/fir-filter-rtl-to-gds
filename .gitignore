@@ -1,0 +1,7 @@
+sta_venv/
+sky130hd_libs/
+*.spef
+sim/fir_sim
+sim/*.vcd
+__pycache__/
+*.pyc

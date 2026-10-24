@@ -1,0 +1,11 @@
+
+read_verilog rtl/fir_filter.v
+hierarchy -check -top fir_filter
+
+proc
+opt
+check
+stat
+
+write_verilog -noattr synth/fir_filter_synth.v
+write_json synth/fir_filter_synth.json

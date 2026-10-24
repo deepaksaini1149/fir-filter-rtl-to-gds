@@ -1,0 +1,17 @@
+Library view,Process,Temperature,Voltage,WNS (ns),TNS (ns),Setup worst slack (ns),Hold worst slack (ns),Result status,Log file
+ff_100C_1v65,FF,100C,165,7.96,0.0,7.96,0.35,PRELIMINARY - needs corner/parasitics validation,ff_100C_1v65.log
+ff_100C_1v95,FF,100C,195,8.19,0.0,8.19,0.28,PRELIMINARY - needs corner/parasitics validation,ff_100C_1v95.log
+ff_n40C_1v56,FF,n40C,156,7.75,0.0,7.75,0.42,PRELIMINARY - needs corner/parasitics validation,ff_n40C_1v56.log
+ff_n40C_1v65,FF,n40C,165,7.92,0.0,7.92,0.37,PRELIMINARY - needs corner/parasitics validation,ff_n40C_1v65.log
+ff_n40C_1v76,FF,n40C,176,8.06,0.0,8.06,0.32,PRELIMINARY - needs corner/parasitics validation,ff_n40C_1v76.log
+ff_n40C_1v95,FF,n40C,195,8.22,0.0,8.22,0.27,PRELIMINARY - needs corner/parasitics validation,ff_n40C_1v95.log
+ss_100C_1v40,SS,100C,140,3.9,0.0,3.9,1.29,PRELIMINARY - needs corner/parasitics validation,ss_100C_1v40.log
+ss_100C_1v60,SS,100C,160,5.81,0.0,5.81,0.88,PRELIMINARY - needs corner/parasitics validation,ss_100C_1v60.log
+ss_n40C_1v28,SS,n40C,128,-4.94,-97.22,-4.94,2.64,PRELIMINARY - needs corner/parasitics validation,ss_n40C_1v28.log
+ss_n40C_1v35,SS,n40C,135,-0.46,-2.0,-0.46,1.95,PRELIMINARY - needs corner/parasitics validation,ss_n40C_1v35.log
+ss_n40C_1v40,SS,n40C,140,1.5,0.0,1.5,1.61,PRELIMINARY - needs corner/parasitics validation,ss_n40C_1v40.log
+ss_n40C_1v44,SS,n40C,144,2.66,0.0,2.66,1.42,PRELIMINARY - needs corner/parasitics validation,ss_n40C_1v44.log
+ss_n40C_1v60,SS,n40C,160,5.34,0.0,5.34,0.94,PRELIMINARY - needs corner/parasitics validation,ss_n40C_1v60.log
+ss_n40C_1v76,SS,n40C,176,6.59,0.0,6.59,0.7,PRELIMINARY - needs corner/parasitics validation,ss_n40C_1v76.log
+tt_025C_1v80,TT,025C,180,7.84,0.0,7.84,0.43,PRELIMINARY - needs corner/parasitics validation,tt_025C_1v80.log
+tt_100C_1v80,TT,100C,180,7.83,0.0,7.83,0.43,PRELIMINARY - needs corner/parasitics validation,tt_100C_1v80.log

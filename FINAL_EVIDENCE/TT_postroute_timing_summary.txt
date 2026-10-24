@@ -1,0 +1,12 @@
+[INFO RCX-0436] RC segment generation fir_filter (max_merge_res 50.0) ...
+Startpoint: data_out[1]$_SDFF_PP0_
+Endpoint: data_out[1] (output port clocked by clk)
+Path Type: max
+           7.90   slack (MET)
+Startpoint: x3[3]$_SDFF_PP0_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: p3[4]$_SDFF_PP0_ (rising edge-triggered flip-flop clocked by clk)
+Path Type: min
+           0.42   slack (MET)
+worst slack max 7.90
+worst slack min 0.42
+tns max 0.00

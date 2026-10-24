@@ -1,0 +1,23 @@
+digraph FIR_Filter {
+  graph [label="4-Tap Pipelined FIR Filter Architecture", labelloc=t, fontsize=20, rankdir=LR, nodesep=0.45, ranksep=0.65, pad=0.3];
+  node [shape=box, style="rounded,filled", fillcolor="#E8F1FB", color="#315A85", fontname="Arial", fontsize=11, margin="0.16,0.10"];
+  edge [fontname="Arial", fontsize=9, color="#444444", arrowsize=0.8];
+
+  input [label="Input Sample\n data_in[7:0]"];
+  delay [label="Sample Delay Line\n x1, x2, x3"];
+  weights [label="Coefficient Weighting\n p0 = data_in × 1\n p1 = x1 × 2\n p2 = x2 × 3\n p3 = x3 × 2"];
+  add1 [label="Stage 1 Adders\n sum01 = p0 + p1\n sum23 = p2 + p3"];
+  add2 [label="Stage 2 Adder\n final_sum = sum01 + sum23"];
+  outreg [label="Output Register\n data_out[15:0]"];
+  output [label="Filtered Output\n data_out"];
+  input -> delay -> weights -> add1 -> add2 -> outreg -> output;
+  valid [label="Valid Pipeline\n valid_in → valid_pipe → valid_out", fillcolor="#E7F5E8", color="#3B7A45"];
+  input -> valid [style=dashed, label="valid_in"];
+  valid -> output [style=dashed, label="valid_out"];
+  rst [label="Synchronous Reset (rst)", shape=note, fillcolor="#FFF1D6", color="#A36A00"];
+  rst -> delay [style=dotted, label="clear registers"];
+  rst -> weights [style=dotted];
+  rst -> add1 [style=dotted];
+  rst -> add2 [style=dotted];
+  rst -> outreg [style=dotted];
+}

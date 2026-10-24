@@ -1,0 +1,46 @@
+=== fir_filter ===
+
+   Number of wires:                393
+   Number of wire bits:            415
+   Number of public wires:         393
+   Number of public wire bits:     415
+   Number of ports:                  6
+   Number of port bits:             28
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                367
+     sky130_fd_sc_hd__a211oi_1       7
+     sky130_fd_sc_hd__a211oi_2       3
+     sky130_fd_sc_hd__a21o_1         8
+     sky130_fd_sc_hd__a21o_2         1
+     sky130_fd_sc_hd__a21oi_1       22
+     sky130_fd_sc_hd__a221oi_1       1
+     sky130_fd_sc_hd__a2bb2oi_1      1
+     sky130_fd_sc_hd__a31oi_1        2
+     sky130_fd_sc_hd__a32oi_1        1
+     sky130_fd_sc_hd__and3_1         4
+     sky130_fd_sc_hd__buf_1          7
+     sky130_fd_sc_hd__buf_2          3
+     sky130_fd_sc_hd__buf_4          4
+     sky130_fd_sc_hd__clkbuf_1       1
+     sky130_fd_sc_hd__conb_1         1
+     sky130_fd_sc_hd__dfxtp_1       88
+     sky130_fd_sc_hd__fa_1           4
+     sky130_fd_sc_hd__ha_1          33
+     sky130_fd_sc_hd__inv_1          6
+     sky130_fd_sc_hd__mux2i_1        1
+     sky130_fd_sc_hd__nand2_1        9
+     sky130_fd_sc_hd__nand2b_1       3
+     sky130_fd_sc_hd__nand3_1        3
+     sky130_fd_sc_hd__nor2_1        30
+     sky130_fd_sc_hd__nor2b_1       57
+     sky130_fd_sc_hd__nor3_1         7
+     sky130_fd_sc_hd__nor3b_1        1
+     sky130_fd_sc_hd__nor4_1         5
+     sky130_fd_sc_hd__nor4b_1        2
+     sky130_fd_sc_hd__nor4bb_1       1
+     sky130_fd_sc_hd__o211ai_1       3
+     sky130_fd_sc_hd__o21ai_0        7
+     sky130_fd_sc_hd__o21ai_1        7
+     sky130_fd_sc_hd__o21ai_2        1

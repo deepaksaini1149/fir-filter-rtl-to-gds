@@ -1,0 +1,19 @@
+read_verilog rtl/fir_filter.v
+hierarchy -check -top fir_filter
+
+proc
+flatten
+opt
+memory
+opt
+techmap
+opt
+
+dfflibmap -liberty /home/vsduser/Desktop/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/vsduser/Desktop/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+clean
+stat -liberty /home/vsduser/Desktop/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+write_verilog -noattr synth/fir_filter_sky130.v
+write_json synth/fir_filter_sky130.json
